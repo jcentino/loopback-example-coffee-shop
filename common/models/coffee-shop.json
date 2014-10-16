@@ -1,0 +1,19 @@
+{
+  "name": "CoffeeShop",
+  "plural": "CoffeeShops",
+  "base": "PersistedModel",
+  "properties": {
+    "Name": {
+      "type": "string",
+      "required": true
+    },
+    "pos": {
+      "type": "geopoint",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": []
+}
