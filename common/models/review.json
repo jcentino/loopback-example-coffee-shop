@@ -1,0 +1,15 @@
+{
+  "name": "Review",
+  "plural": "Reviews",
+  "base": "PersistedModel",
+  "properties": {
+    "star": {
+      "type": "number",
+      "required": false
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": []
+}
