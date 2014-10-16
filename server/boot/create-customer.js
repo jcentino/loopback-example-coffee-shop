@@ -8,7 +8,7 @@ var customers = [
  
 module.exports = function(server) {
   var dataSource = server.dataSources.mongodb;
-  dataSource.automigrate('customer', function(er) {
+  dataSource.automigrate('Customer', function(er) {
     //if (er) throw er;
     var Model = server.models.Customer;
     //create sample data
@@ -20,7 +20,6 @@ module.exports = function(server) {
         count--;
         if (count === 0) {
           console.log('done');
-          dataSource.disconnect();
         }
       });
     });
