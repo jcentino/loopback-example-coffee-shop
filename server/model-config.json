@@ -35,5 +35,9 @@
   "Review": {
     "dataSource": "mongodb",
     "public": true
+  },
+  "Coffee": {
+    "dataSource": "mysql",
+    "public": true
   }
 }

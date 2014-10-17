@@ -6,5 +6,14 @@
   "mongodb": {
     "name": "mongodb",
     "connector": "mongodb"
+  },
+  "mysql": {
+    "host": "demo.strongloop.com",
+    "port": 3306,
+    "database": "coffee",
+    "password": "L00pBack",
+    "name": "mysql",
+    "connector": "mysql",
+    "user": "demo"
   }
 }

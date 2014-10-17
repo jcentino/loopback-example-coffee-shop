@@ -1,5 +1,6 @@
 module.exports = function(CoffeeShop) {
   CoffeeShop.near= function(here, limit, fn) {
+    console.log(here);
     var default_result_count = 40;
     if (typeof limit === 'function') {
       fn = limit;

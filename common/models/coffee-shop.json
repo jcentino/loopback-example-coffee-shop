@@ -13,14 +13,13 @@
     }
   },
   "validations": [],
-  "relations": {},
-  "acls": [
-    {
-      "accessType": "*",
-      "principalType": "ROLE",
-      "principalId": "$everyone",
-      "permission": "DENY"
+  "relations": {
+    "reviews": {
+      "type": "hasMany",
+      "model": "Review",
+      "foreignKey": "coffeeshop"
     }
-  ],
+  },
+  "acls": [],
   "methods": []
 }
