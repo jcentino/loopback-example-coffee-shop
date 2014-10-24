@@ -5,23 +5,33 @@
   "properties": {
     "star": {
       "type": "number",
-      "required": false,
-      "index": false
+      "required": true
+    },
+    "review": {
+      "type": "string",
+      "required": true
     }
   },
   "validations": [],
   "relations": {
-    "author": {
+    "customer": {
       "type": "belongsTo",
       "model": "Customer",
-      "foreignKey": "authorId"
+      "foreignKey": "authorid"
     },
     "coffeeShop": {
       "type": "belongsTo",
       "model": "CoffeeShop",
-      "foreignKey": "coffeeShop"
+      "foreignKey": "coffeeshop"
     }
   },
-  "acls": [],
+  "acls": [
+    {
+      "accessType": "WRITE",
+      "principalType": "ROLE",
+      "principalId": "$unauthenticated",
+      "permission": "DENY"
+    }
+  ],
   "methods": []
 }
