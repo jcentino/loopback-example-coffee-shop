@@ -7,7 +7,7 @@ Features covered in this app -
 4. ACls - No write access to Reviews
 5. Custom method example in common/models/coffee-shop.js 
 6. FE map in client/index.html
-5. Strong-studio discovery and migration using mysql and the Coffee model
+7. Strong-studio discovery and migration using mysql and the Coffee model
 
 
 To run the app, you need to have Mongo running.
