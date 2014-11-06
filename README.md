@@ -1,13 +1,13 @@
 
 Features covered in this app - 
 
-* Model - CoffeeShops, Reviews, Customers
-* Datasources and connectors 
+* Model - CoffeeShops, Reviews, Customers.
+* Datasources and connectors.
 * Model relations - Customers can add Reviews for Coffeeshops.
-* ACls - No write access to Reviews
-* Custom method example in common/models/coffee-shop.js 
-* FE map in client/index.html
-* Strong-studio discovery and migration using mysql and the Coffee model
+* ACls - No write access to Reviews.
+* Custom method example in common/models/coffee-shop.js. 
+* FE map in client/index.html.
+* Strong-studio discovery and migration using mysql and the Coffee model.
 
 
 
