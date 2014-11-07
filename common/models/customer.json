@@ -1,15 +1,17 @@
 {
   "name": "Customer",
-  "plural": "Customers",
-  "base": "PersistedModel",
+  "base": "User",
   "properties": {
-    "name": {
+    "email": {
       "type": "string",
       "required": true
     },
-    "age": {
-      "type": "number",
+    "password": {
+      "type": "string",
       "required": true
+    },
+    "username": {
+      "type": "string"
     }
   },
   "validations": [],
@@ -17,7 +19,7 @@
     "reviews": {
       "type": "hasMany",
       "model": "Review",
-      "foreignKey": "authorId"
+      "foreignKey": "customer"
     }
   },
   "acls": [],

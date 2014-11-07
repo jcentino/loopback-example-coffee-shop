@@ -1,6 +1,5 @@
 {
   "name": "CoffeeShop",
-  "plural": "CoffeeShops",
   "base": "PersistedModel",
   "properties": {
     "Name": {
@@ -20,7 +19,6 @@
       "foreignKey": "coffeeshop"
     }
   },
-  "acls": [
-  ],
+  "acls": [],
   "methods": []
 }
